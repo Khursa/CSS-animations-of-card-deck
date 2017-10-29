@@ -1,0 +1,156 @@
+@media (max-width: 1366px) and (min-width: 1221px) {
+	.card {
+  		 perspective: 900px;
+   		 zoom: 0.8;
+	 }
+ 	 }
+
+ @media (max-width: 1220px) and (min-width: 959px) {
+	  
+ 	 } 
+
+ @media (max-width: 960px) and (min-width: 767px) {
+	 .card {
+    	perspective: 1000px;
+    	zoom: 0.6;
+	 }
+ 	 }
+
+ @media (max-width: 766px) and (min-width: 479px) {
+	 .cd-header__title {
+		margin-bottom: 50px;
+	 }
+	 .card {
+    	perspective: 1200px;
+    	zoom: 0.6;
+	 }
+	 .card-container {
+	 	transform: rotateZ(90deg);
+	 	margin: -8%;	
+	 }
+
+	 .card-row {
+	 	flex-direction: column; 
+	 }
+	 .card {
+  		 perspective: 2500px;
+   		 zoom: 1;
+	 }
+ 	 }
+
+ @media (max-width: 480px) and (min-width: 413px) {
+	.cd-header__title {
+		margin-bottom: 40px;
+		font-size: 26px;
+	 }
+	 .card {
+    	perspective: 1200px;
+    	zoom: 0.6;
+	 }
+	 .card-container {
+	 	margin: 8%;	
+	 }
+
+	 .card-row {
+	 	flex-direction: column; 
+	 }
+	 .card {
+  		 perspective: 2500px;
+   		 zoom: 0.8;
+	 }
+ 	 }
+
+ @media (max-width: 414px) and (min-width: 374px) {
+	.cd-header__title {
+		margin-bottom: 40px;
+		font-size: 23px;
+	 }
+	 .card {
+    	perspective: 1200px;
+    	zoom: 0.6;
+	 }
+	 .card-container {
+	 	margin: 8%;	
+	 }
+
+	 .card-row {
+	 	flex-direction: column; 
+	 }
+	 .card {
+  		 perspective: 2500px;
+   		 zoom: 0.8;
+	 }
+ 	 }
+
+ @media (max-width: 375px) and (min-width: 361px) {
+	 .cd-header__title {
+		padding: 30px;
+		margin-bottom: 30px;
+		font-size: 23px;
+	 }
+	 .card {
+    	perspective: 1200px;
+    	zoom: 0.6;
+	 }
+	 .card-container {
+	 	margin: 8%;	
+	 }
+
+	 .card-row {
+	 	flex-direction: column; 
+	 }
+	 .card {
+  		 perspective: 2500px;
+   		 zoom: 0.8;
+	 }
+ 	 }
+
+
+ @media (max-width: 360px) and (min-width: 321px) {
+	.cd-header__title {
+		padding: 20px;
+		margin-bottom: 20px;
+		font-size: 22px;
+	 }
+	 .card {
+    	perspective: 1200px;
+    	zoom: 0.6;
+	 }
+	 .card-container {
+	 	margin: 5%;	
+	 }
+
+	 .card-row {
+	 	flex-direction: column; 
+	 }
+	 .card {
+  		 perspective: 2500px;
+   			  
+ 	 }
+ 	 }
+
+
+ @media (max-width: 320px) and (min-width: 1px) {
+	.cd-header__title {
+		padding: 20px;
+		margin-bottom: 20px;
+		font-size: 22px;
+	 }
+	 .card {
+    	perspective: 1200px;
+    	zoom: 0.6;
+	 }
+	 .card-container {
+	 	margin: 5%;	
+	 }
+
+	 .card-row {
+	 	flex-direction: column; 
+	 }
+	 .card {
+  		 perspective: 2500px;
+   			  
+ 	 }
+ 	 }
+
+ 

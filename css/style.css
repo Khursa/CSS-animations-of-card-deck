@@ -1,0 +1,205 @@
+/*GENERAL STTLES*/
+
+body {
+	background-color: #256922; 
+}
+
+
+/*HEADER*/
+
+.cd-header {
+ 	min-height: 10vh;
+  	background-color: #053948; 
+}
+
+.cd-header__title {
+    color: #fff;
+	text-align: center;
+	font-style: italic;
+	padding: 40px;
+	margin-top: 0;
+	margin-bottom: 80px;
+	box-shadow: 40px 10px 90px #000;
+	text-shadow: 10px 10px 100px #fff;
+	font-size: 36px;
+}
+
+/*MAIN*/
+
+.cd_main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cd-deck {
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+	align-items: stretch;
+	width: 100vw;
+	overflow-x: visible;
+}
+
+.card-row {
+	display: inline-flex;
+	flex-direction: row; 
+	justify-content:space-around;
+	align-items: stretch;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.card-container {
+	margin: 1%;
+}
+
+.card {
+	position: relative;
+	height: 417px;
+	width:288px;
+	margin: auto;
+	cursor: pointer;
+    perspective: 950px;
+    zoom: 0.75;
+}
+
+.card div {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 417px;
+	width: 288px;
+	transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 2.5s ease-out;
+	/*transform-origin: 50% 100%;*/
+}
+
+
+.front-side {
+	background: #cc9900 url(../img/back_cards.jpg) no-repeat;
+    border-radius: 12px;
+    z-index: 1;
+	-webkit-backface-visibility: hidden;
+    backface-visibility: visible;
+}
+
+.back-side {
+	position: relative;
+	min-width: 100px;
+	min-height: 100px;
+	background: #fff;
+	border-radius: 12px;
+	transform: rotateY(-180deg) translateZ(0);
+	z-index: 2;
+	font-size: 3.5em;
+	font-weight: 600;
+}
+
+.card-container:hover .front-side {
+	transform: rotateY(-180deg);
+}
+
+.card-container:hover .back-side {
+	transform: rotateY(0deg);
+}
+
+.back-side_border--out {
+	border: 1px solid #000;
+	border-radius: 12px;
+}
+
+.back-side_border--in {
+	border: 1px solid #000;
+	border-radius: 12px;
+}
+
+.red-denomination div,
+.red-denomination p {
+	color: #f00;
+}
+
+.black-denomination div {
+	color: #000;
+}
+
+.back-side__denomination--upper {
+	position: absolute;
+	width: 40px;
+	height: 40px;		
+    margin: 3% 4%;
+}
+
+.back-side__denomination--lower {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	transform: rotateZ(180deg);		
+    transition: transform 0.1s linear;
+    margin: -3% -4%;
+}
+
+p.older {
+	font-size: 250px;
+	margin: 50% 0 0 50%;
+	transform: translate(-50%, -30%);
+}
+
+p.jr {
+	font-size: 100px;
+	line-height: 0.0001;
+	margin: 0;
+}
+
+p.diamonds:after {
+	content: '\2666';
+}
+
+p.hearts:after {
+	content: '\2665';
+}
+
+p.clubs:after {
+	content: '\2663';
+}
+
+p.spades:after {
+	content: '\2660';
+}
+
+.index-number {
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+	align-items: center;
+}
+
+.suit {
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-around;
+	align-items: center;
+}
+
+.column--left {
+	transform: translateX(-16%);
+}
+
+.column--right {
+	transform: translateX(16%);
+}
+
+.flipped-over {
+	transform: rotate(180deg);
+}
+
+.center-seven {
+	padding-top: 50%;
+	transform: translateY(-90%);
+}
+
+.last-container {
+	margin-bottom: 150px;
+}
